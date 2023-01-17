@@ -43,4 +43,4 @@ jobs:
       shell: pwsh
       env:
         SECRET_KEY: ${{ secrets.AYBORG_DIAGRAMS_NUGET_ORG }}
-      run: dotnet nuget push src/AyBorg.Diagrams/artifacts/*.nupkg --api-key $env:SECRET_KEY --source https://api.nuget.org/v3/index.json  --skip-duplicate
+      run: dotnet nuget push src/artifacts/*.nupkg --api-key $env:SECRET_KEY --source https://api.nuget.org/v3/index.json  --skip-duplicate

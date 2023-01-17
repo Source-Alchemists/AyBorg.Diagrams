@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.128
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE32E278-A887-454E-987D-FFE9E37169FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AyBorg.Diagrams.Core", "src\AyBorg.Diagrams.Core\AyBorg.Diagrams.Core.csproj", "{1A70B637-9EF8-4C25-970E-A681DEC9061C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AyBorg.Diagrams", "src\AyBorg.Diagrams\AyBorg.Diagrams.csproj", "{A1A4F8A5-7C97-41A8-9ADD-54E9D1725B56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AyBorg.Diagrams.Algorithms", "src\AyBorg.Diagrams.Algorithms\AyBorg.Diagrams.Algorithms.csproj", "{CB3A42B6-3C87-4ECB-B60C-D98275AB1FB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{260DF53D-FF2B-4D1D-ACA7-431F6B62EE38}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CEEAE4C2-CE68-4FC3-9E0F-D4781B91F7F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AyBorg.Diagrams.Core.Tests", "tests\AyBorg.Diagrams.Core.Tests\AyBorg.Diagrams.Core.Tests.csproj", "{36B4DCCD-45AB-4338-9224-DDAF386A23A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A70B637-9EF8-4C25-970E-A681DEC9061C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A70B637-9EF8-4C25-970E-A681DEC9061C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A70B637-9EF8-4C25-970E-A681DEC9061C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A70B637-9EF8-4C25-970E-A681DEC9061C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A4F8A5-7C97-41A8-9ADD-54E9D1725B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A4F8A5-7C97-41A8-9ADD-54E9D1725B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A4F8A5-7C97-41A8-9ADD-54E9D1725B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A4F8A5-7C97-41A8-9ADD-54E9D1725B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB3A42B6-3C87-4ECB-B60C-D98275AB1FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB3A42B6-3C87-4ECB-B60C-D98275AB1FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB3A42B6-3C87-4ECB-B60C-D98275AB1FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB3A42B6-3C87-4ECB-B60C-D98275AB1FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B4DCCD-45AB-4338-9224-DDAF386A23A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B4DCCD-45AB-4338-9224-DDAF386A23A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B4DCCD-45AB-4338-9224-DDAF386A23A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B4DCCD-45AB-4338-9224-DDAF386A23A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A70B637-9EF8-4C25-970E-A681DEC9061C} = {EE32E278-A887-454E-987D-FFE9E37169FE}
+		{A1A4F8A5-7C97-41A8-9ADD-54E9D1725B56} = {EE32E278-A887-454E-987D-FFE9E37169FE}
+		{CB3A42B6-3C87-4ECB-B60C-D98275AB1FB6} = {EE32E278-A887-454E-987D-FFE9E37169FE}
+		{36B4DCCD-45AB-4338-9224-DDAF386A23A3} = {CEEAE4C2-CE68-4FC3-9E0F-D4781B91F7F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {969540A2-8162-4063-A4E3-B488F69BD582}
+	EndGlobalSection
+EndGlobal

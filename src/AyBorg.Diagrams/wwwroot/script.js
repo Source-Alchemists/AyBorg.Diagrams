@@ -44,7 +44,7 @@ var s = {
         delete s.canvases[id];
     }
 };
-window.ZBlazorDiagrams = s;
+window.AyBorgDiagrams = s;
 window.addEventListener('scroll', () => {
     for (id in s.canvases) {
         const canvas = s.canvases[id];
